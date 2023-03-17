@@ -3,7 +3,7 @@
 1. {refetchOnMountOrArgChange: true} => every mount & unmount or any change time => it will do re-fetch
 2. Automated Re-fetching => i)tagTypes: ['Post', 'User'], ii)providesTags: ['Post'], iii) invalidatesTags: ['Post'],
 
-# Redux Toolkit (Github repo Link => it is only redux toolkit understending repo)[https://github.com/amirulislamhridoy/Redux-toolkit-full-example-module-5-ACC-mir-hossain.git]
+# Redux Toolkit [Github repo Link => it is only redux toolkit understending repo](https://github.com/amirulislamhridoy/Redux-toolkit-full-example-module-5-ACC-mir-hossain.git)
 ### Error solve
 use new keyword front of ObjectId => {_id: new ObjectId(id)}
 ### main topics
