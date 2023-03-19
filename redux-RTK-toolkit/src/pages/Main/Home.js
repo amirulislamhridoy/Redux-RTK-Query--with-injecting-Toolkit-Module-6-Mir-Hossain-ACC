@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { stockStatus, filterChoose, clearAll } from '../../redux-toolkit-or-app/features/filterSlice';
-import {useGetProductQuery} from '../../redux-RTK-Query/features/productSlice'
+import {useGetProductQuery} from '../../redux-RTK-Query/features/productApi'
 import ProductCard from "../../components/ProductCard";
 
 const Home = () => {

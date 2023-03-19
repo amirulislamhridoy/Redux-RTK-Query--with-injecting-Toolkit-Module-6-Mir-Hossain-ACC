@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { useAddProductMutation } from "../../redux-RTK-Query/features/productSlice";
+import { useAddProductMutation } from "../../redux-RTK-Query/features/productApi";
 
 const AddProduct = () => {
   const { register, handleSubmit, reset } = useForm();

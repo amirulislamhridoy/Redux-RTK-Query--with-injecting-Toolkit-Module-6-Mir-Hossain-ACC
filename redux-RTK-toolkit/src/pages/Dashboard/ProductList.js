@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useGetProductQuery, useRemoveProductMutation } from "../../redux-RTK-Query/features/productSlice";
+import { useGetProductQuery, useRemoveProductMutation } from "../../redux-RTK-Query/features/productApi";
 import { fetchProduct, removeProduct } from "../../redux-toolkit-or-app/features/productSlice";
 
 const ProductList = () => {
