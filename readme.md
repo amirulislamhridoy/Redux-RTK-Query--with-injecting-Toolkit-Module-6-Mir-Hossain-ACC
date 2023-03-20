@@ -1,6 +1,6 @@
 # RTK Query
 ## problem (mongoose not working properly for Schema is not good)
-1. injecting use in RTK Query [file name productSlice & producet Api]
+1. injecting use in RTK Query [this system is module 6 video 9] [file name productSlice & producet Api]
 2. {refetchOnMountOrArgChange: true} => every mount & unmount or any change time => it will do re-fetch
 3. Automated Re-fetching => i)tagTypes: ['Post', 'User'], ii)providesTags: ['Post'], iii) invalidatesTags: ['Post'],
 
